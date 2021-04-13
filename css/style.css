@@ -1,0 +1,205 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+  --text-color-0: #ffffff;
+  --text-color-1: #212121;
+  --text-color-2: #757575;
+  --background-color: #2f303a;
+  --background-color-2: #f5f4fa;
+}
+body {
+  color: var(--text-color-1);
+  font-family: var(--main-font);
+}
+
+/* =====COMPONENTS===== */
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.875;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  display: flex;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--main-color);
+  color: var(--text-color-0);
+}
+
+/* =====END COMPONENTS===== */
+
+/* =====HEADER===== */
+.page-logo {
+  color: var(--main-color);
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-part {
+  color: #000000;
+}
+
+.navigation-class-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-color-1);
+}
+
+.contact-email,
+.contact-phone {
+  color: var(--text-color-2);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.navigation-class-link:hover,
+.navigation-class-link:focus,
+.contact-email:hover,
+.contact-email:focus,
+.contact-phone:hover,
+.contact-phone:focus {
+  color: var(--main-color);
+}
+
+/* ===== END HEADER===== */
+
+/* =====MAIN===== */
+.title {
+  color: var(--text-color-0);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.headline .modal-btn {
+  font-weight: 700;
+}
+
+.headline {
+  background-color: var(--background-color);
+}
+.advantage-list-feature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantage-list-feature-description {
+  font-size: 14px;
+  line-height: 1.174;
+  letter-spacing: 0.03em;
+  color: var(--text-color-2);
+}
+
+/* =====CZYM SIE ZAJMUJEMY===== */
+.czym-sie-zajmujemy {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* =====END CZYM SIE ZAJMUJEMY===== */
+
+/* =====OUR TEAM===== */
+.our-team {
+  background-color: var(--background-color-2);
+}
+
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-name,
+.position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  color: var(--text-color-2);
+}
+/* =====END OUR TEAM===== */
+
+/* =====PROJECT===== */
+.project-list-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-list-branch {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--text-color-2);
+}
+
+/* =====END PROJECT===== */
+
+/* =====END MAIN===== */
+
+/* =====FOOTER===== */
+.footer {
+  background-color: var(--background-color);
+}
+.logo-part-two {
+  color: var(--text-color-0);
+}
+
+.address-link {
+  color: var(--text-color-0);
+}
+
+.email-link,
+.phone-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link,
+.email-link,
+.phone-link {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+.address-link:hover,
+.address-link:active,
+.email-link:hover,
+.email-link:active,
+.phone-link:hover,
+.phone-link:active {
+  color: var(--main-color);
+}
+
+/* =====END FOOTER===== */
